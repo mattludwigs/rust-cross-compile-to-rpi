@@ -5,6 +5,8 @@ compile for raspberry pi (and others?) from a different host system. So using Do
 the docker image provided in this repo as a proof of concept, I was able to cross compile
 this Rust code base into the correct binary.
 
+*Does not complete work yet, about 95% of the way there*
+
 
 # How to Use
 
