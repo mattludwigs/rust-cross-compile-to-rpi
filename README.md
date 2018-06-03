@@ -32,5 +32,11 @@ $ file target/armv7-unknown-linux-gnueabihf/debug/cross_pi
 target/armv7-unknown-linux-gnueabihf/debug/cross_pi: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, for GNU/Linux 3.2.0, BuildID[sha1]=6881e5571eeb5fd891d0034584386628305c0ec3, with debug_info, not stripped
 ```
 
+# Credit to those who Inspired/Helped me
+
+1. https://github.com/japaric/rust-cross#how-do-i-compile-a-fully-statically-linked-rust-binaries
+1. https://hackaday.com/2016/09/01/how-to-use-docker-to-cross-compile-for-raspberry-pi-and-more/
+1. https://nerves-project.org/ (they use Docker to cross compile for different systems when not using Linux)
+1. https://hackernoon.com/compiling-rust-for-the-raspberry-pi-49fdcd7df658
 
 
