@@ -38,5 +38,5 @@ target/armv7-unknown-linux-gnueabihf/debug/cross_pi: ELF 32-bit LSB shared objec
 1. https://hackaday.com/2016/09/01/how-to-use-docker-to-cross-compile-for-raspberry-pi-and-more/
 1. https://nerves-project.org/ (they use Docker to cross compile for different systems when not using Linux)
 1. https://hackernoon.com/compiling-rust-for-the-raspberry-pi-49fdcd7df658
-
+1. https://github.com/mitchallen/pi-cross-compile
 
