@@ -15,12 +15,12 @@ RUN sh ./rustup.sh -y
 RUN ln -s ${HOME}/.cargo/bin/cargo /home/cargo
 RUN ln -s ${HOME}/.cargo/bin/rustup /home/rustup
 
-RUN /home/rustup target add armv7-unknown-linux-gnueabihf
+RUN /home/rustup target add arm-unknown-linux-gnueabihf
 
 RUN sh /home/cargo_config.sh
 
 ENV BUILD_FOLDER /build
 WORKDIR ${BUILD_FOLDER}
 
-CMD ["/home/cargo", "build", "--target=armv7-unknown-linux-gnueabihf"]
+CMD ["/home/cargo", "build", "--target=arm-unknown-linux-gnueabihf"]
 
