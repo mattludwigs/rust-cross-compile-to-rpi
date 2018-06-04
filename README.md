@@ -1,6 +1,6 @@
 # Cross Compiling Rust for RPi Hackery
 
-Most the Rust cross compiling articles are using Linux, but it would be able to cross
+Most the Rust cross compiling articles are using Linux, but it would be nice to cross
 compile for raspberry pi (and others?) from a different host system. So using Docker and
 the docker image provided in this repo as a proof of concept, I was able to cross compile
 this Rust code base into the correct binary.
